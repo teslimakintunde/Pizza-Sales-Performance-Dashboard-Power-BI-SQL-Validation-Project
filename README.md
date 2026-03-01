@@ -1,7 +1,8 @@
 # Pizza Sales Performance Intelligence
 **Power BI • SQL • KPI Validation • Business Intelligence**
 
-## Project Overview
+# Project Overview
+
 This project analyzes transactional pizza sales data using SQL for metric validation and Power BI for interactive visualization. The objective was to transform raw sales records into executive-level insights covering revenue performance, product contribution, and customer purchasing behavior.
 All KPIs displayed in Power BI were validated using SQL queries to ensure accuracy and metric integrity.
 
@@ -112,10 +113,9 @@ Mitigation Strategy:
 - Introduce dynamic bundling strategies
 
 ## Technical Implementation
+**SQL Validation Layer**
 
-### SQL Validation Layer
 All core KPIs were computed directly in SQL:
-
 - Total revenue, orders, pizzas sold  
 - Average order value & pizzas per order  
 - % revenue by category & size  
@@ -124,7 +124,8 @@ All core KPIs were computed directly in SQL:
 
 This ensures numerical integrity and eliminates reporting discrepancies.
 
-### Power BI Implementation
+## Power BI Implementation
+
 - Optimized star schema data modeling
 - DAX measures for KPI calculation
 - Time intelligence measures (Month, Quarter filtering)
@@ -132,6 +133,7 @@ This ensures numerical integrity and eliminates reporting discrepancies.
 - Clean, decision-focused dashboard layout
 
 ## Business Recommendations
+
 
 1. Stock & promote Large sizes aggressively – they drive almost half the revenue  
 2. Increase marketing during low-performing weekdays  
@@ -141,6 +143,7 @@ This ensures numerical integrity and eliminates reporting discrepancies.
 6. Review low performers — consider limited-time offers, price adjustments or menu refresh
 
 ## Conclusion
+
 
 This project demonstrates advanced capabilities in:
 
@@ -155,4 +158,4 @@ Rather than simply reporting numbers, this solution identifies revenue drivers, 
 
 The combination of SQL validation and Power BI visualization ensures both accuracy and strategic clarity.
 
---
+---
