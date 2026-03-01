@@ -6,6 +6,18 @@
 This project analyzes transactional pizza sales data using SQL for metric validation and Power BI for interactive visualization. The objective was to transform raw sales records into executive-level insights covering revenue performance, product contribution, and customer purchasing behavior.
 All KPIs displayed in Power BI were validated using SQL queries to ensure accuracy and metric integrity.
 
+## Problem Statement
+Despite consistent sales activity, management lacked visibility into:
+ - Which products truly drive revenue
+ - Whether revenue is overly concentrated on specific SKUs or sizes
+ - When peak monetization windows occur
+ - How balanced revenue distribution is across categories
+ - Where optimization opportunities exist to improve revenue stability
+
+Without structured intelligence, pricing strategy, staffing decisions, and promotional efforts were operating reactively rather than strategically.
+
+This project was developed to provide a governed, data-backed decision framework for revenue optimization.
+
 ## Data Preparation & Quality Governance
 - Thoroughly cleaned and standardized all data before any analysis or visualization.
 - Fixed messy date fields → proper DATE type, YYYY-MM-DD format, added Day/Month/Quarter/Hour.
